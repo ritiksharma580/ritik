@@ -1,0 +1,323 @@
+/* navigationbaar */
+.head1{
+    height: 80px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 0 ;
+        }
+    .logo{
+                  width: 18vw;
+                  height: 80px;
+    
+    }
+    
+      
+        .searchicon{
+            /* height: 2vw; */
+            width: 21px;
+            position: absolute;
+            margin-left: 0.4vw;
+            z-index: 2;
+    
+        }
+    
+        input {
+            margin-top: -1.3vw;
+            height: 25px;
+            width: 17vw;
+            font-size: large;
+            border-radius:15px;
+            /* position: absolute; */
+            padding-left: 8vw;
+            border-radius: 6px;
+            outline: none;
+            
+        }
+    
+    
+    
+    
+    
+    
+    
+    .login{
+        width: 2.50vw;
+        height: 32px;
+    }
+    .cart{
+        width: 2.50vw;
+        height: 32px;
+    
+    
+    }
+    
+    
+        .head2{
+    height: 80px;
+    width: 100%;
+    background-color:whitesmoke;
+    
+    
+        }
+    
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .btn2 {
+            border: none;
+            background-color:whitesmoke;
+    
+    
+    
+    
+        }
+    
+        li:hover .btn2 {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+    
+        }
+    
+    
+        li {
+            list-style: none;
+    
+        }
+    
+        li .dropdown-content {
+            position: absolute;
+            display: none;
+            background-color: #f9f9f9;
+            width: 88.22vw;
+            height: 500px;
+            border-radius: 5px;
+            margin-top: 1px;
+            margin-left: -51.88vw;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+        .dropdown-content img{
+            width: 47vw;
+                height: 500px;
+                margin-left: 630px;
+            
+            }
+    
+        li:hover>.dropdown-content {
+    
+            display: block;
+        }
+    
+    
+        .dropdown-content ul {
+            margin-top: 10px;
+            position: absolute;
+            margin-left: -10px;
+            font-weight: bold;
+            gap: 100px;
+            font-size: larger;
+        }
+    
+        li .dropdown-content2 {
+            position: absolute;
+            display: none;
+            background-color: #f9f9f9;
+            width: 88.22vw;
+    
+            height: 500px;
+            border-radius: 5px;
+            margin-top: 1px;
+            margin-left: -58.45vw;
+    
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+        .dropdown-content2 img{
+        width: 47vw;
+            height: 500px;
+            margin-left: 630px;
+    
+        }
+    
+        li:hover>.dropdown-content2 {
+            display: block;
+        }
+    
+    
+        .dropdown-content2 ul {
+            margin-top: 10px;
+            position: absolute;
+            margin-left: -10px;
+            font-weight: bold;
+            gap: 100px;
+            font-size: larger;
+        }
+    
+    
+        li .dropdown-content3 {
+            position: absolute;
+            display: none;
+            background-color: #f9f9f9;
+            width: 88.22vw;
+            margin-left: -65vw;
+    
+            height: 500px;
+            border-radius: 5px;
+            margin-top: 1px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+    
+        .dropdown-content3 img{
+                width: 47vw;
+                height: 500px;
+                margin-left: 630px;
+            
+            }
+    
+    
+    
+        li:hover>.dropdown-content3 {
+            display: block;
+        }
+    
+    
+        .dropdown-content3 ul {
+            margin-top: 10px;
+            position: absolute;
+            margin-left: -10px;
+            font-weight: bold;
+            gap: 100px;
+            font-size: larger;
+        }
+        .content3{
+        margin-left: -500px;
+            margin-top: 300px;
+    
+    
+        }
+    
+    
+        .content3 li {
+            color: black;
+            font-weight: lighter;
+            display: block;
+            margin-left: -830px;
+            font-size: 16px;
+        }
+    
+        .content3 a {
+            text-decoration: none;
+            color: black;
+            font-weight: lighter;
+            display: block;
+            font-size: 16px;
+        }
+    
+        .content ul {
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: -27px;
+            display: block;
+            cursor: pointer;
+            
+    
+        }
+    
+        .content a {
+            text-decoration: none;
+            color: black;
+            font-weight: lighter;
+            display: block;
+            margin-left: -10px;
+            font-size: 16px;
+        }
+        .content{
+    
+            margin-left: -10px;
+        }
+    
+    
+    
+        /* bannner */
+        .banner{
+    height:78vh;
+    width: 100%;
+    
+        }
+    
+        .Categories{
+    
+    margin-left: -1px; 
+    margin-left: 660px;
+    }
+    .h2tag{
+    
+    margin-left: -1px;
+    margin-left: 700px;
+    }
+    .section1 {
+    height: 2120px;
+    width: 100%;
+    background-color: white;
+    z-index: 7;
+    
+    
+    }
+
+
+    /* mediaquery */
+
+@media (max-width:1025px) {
+    .banner{
+        height:72.50vh;
+
+
+    }
+    .login{
+    width: 3.50vw;
+    height: 32px;
+}
+    .cart{
+    width: 3.50vw;
+    height: 32px;
+
+
+}
+    
+}
+
+@media (max-width:901px) {
+    .searchicon{
+        /* height: 2vw; */
+        width: 21px;
+        position: absolute;
+        margin-left: 0.6vw;
+        z-index: 2;
+
+    }
+
+    .login{
+    width: 3.50vw;
+    height: 32px;
+}
+    .cart{
+    width: 3.50vw;
+    height: 32px;
+
+
+}
+.logo{
+              width: 20vw;
+              height: 80px;
+
+}
+
+}

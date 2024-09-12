@@ -1,0 +1,556 @@
+.contaner {
+    height: auto;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    gap: 2px;
+}
+
+
+.product-Images {
+    margin-top: 30px;
+    height: auto;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.big-Image {
+    width: 60%;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 40px;
+
+
+
+}
+
+.img {
+    width: 100%;
+    height: 600px;
+
+
+}
+
+.small-Images {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 15px;
+    gap: 15px;
+
+
+}
+
+.small-Images div {
+    max-width: 8vw;
+    border: 1px solid black;
+
+}
+
+.small-Images img {
+
+    width: 100%;
+
+
+}
+
+
+
+
+.big-Image img {
+    transition: opacity 0.3s ease-in-out;
+    /* Smooth opacity change */
+}
+
+/* Small images ke liye attractive border aur scale effect */
+.small-img-box {
+    max-width: 8vw;
+    border: 2px solid transparent;
+    /* Normal state me transparent border */
+    transition: transform 0.3s ease, border 0.3s ease;
+    /* Smooth scaling */
+}
+
+.small-img-box img {
+    transition: transform 0.3s ease;
+    /* Smooth scaling for image */
+}
+
+/* Active class jab small image click kiya jaye */
+.small-img-box.active {
+    border: 2px solid #ff5722;
+    /* Attractive border color on click */
+    transform: scale(1.1);
+    /* Smooth scale effect */
+}
+
+/* Hover effect */
+.small-img-box:hover {
+    transform: scale(1.05);
+    /* Slight scale on hover */
+
+}
+
+
+.buy {
+    height: 750px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.buy-item {
+    padding: 20px 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.512);
+}
+
+.buy-addtoCart {
+    padding: 20px 5px;
+    border: none;
+
+}
+
+h1:nth-child(1) {
+    font-size: 2vw;
+    color: black;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+h1:nth-child(2) {
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-weight: lighter;
+}
+
+h1:nth-child(3) {
+    font-size: 2vw;
+
+    font-weight: lighter;
+
+}
+
+del {
+    font-size: 1.50vw;
+    color: rgba(0, 0, 0, 0.416);
+}
+
+h1:nth-child(3) span {
+    color: green;
+    font-weight: bold;
+    font-size: 1.50vw;
+}
+
+
+
+.size {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sz {
+    padding: 15px;
+    width: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sz:hover {
+    transform: scale(1.1);
+}
+
+.sz.active {
+    border-color: #ff5733;
+    transform: scale(1.1);
+    background-color: #f0f0f0;
+    color: #ff5733;
+}
+
+
+.q {
+    display: flex;
+    height: 50px;
+    border: 1px solid black;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.minus {
+    margin-top: -15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.plus {
+    margin-top: 6px;
+    cursor: pointer;
+
+}
+
+.btn1 {
+    padding: 5px 13.90vw;
+    border-radius: 5px;
+    font-size: 2vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 5px 15vw;
+
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(6, 7, 35, 0.985);
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+
+.section4 {
+    height: 450px;
+    width: 96%;
+    background-color: white;
+    border-top: 2px solid rgba(0, 0, 0, 0.108);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.40vw;
+    z-index: 4;
+}
+
+
+.Fashionfusion img {
+    width: 18vw;
+    height: 80px;
+    margin-top: 15px;
+    display: block;
+
+}
+
+.social-icons .social-icon {
+    display: inline-block;
+    font-size: 21px;
+    margin-left: 0px;
+    color: #2c3e50;
+    transition: color 0.3 ease;
+
+
+}
+
+.social-icons .social-icon:hover {
+
+    color: rgba(0, 0, 255, 0.73);
+    font-size: 25px;
+
+}
+
+.ContuctUs p {
+    font-size: 1vw;
+    line-height: 30px;
+}
+
+.policy a {
+    margin-left: 0px;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    display: block;
+}
+
+.aboutus a {
+    margin-left: 0px;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    display: block;
+}
+
+/* responsive  */
+
+
+@media (max-width:1296px) {
+
+
+    .Fashionfusion img {
+        display: none;
+    }
+
+    .Fashionfusion p {
+        display: none;
+    }
+
+    .section4 {
+        flex-wrap: wrap;
+    }
+
+    .big-Image {
+        width: 60%;
+        height: 500px;
+        border: 1px solid black;
+        margin-left: 40px;
+
+
+
+    }
+
+    .img {
+        width: 100%;
+        height: 500px;
+
+
+    }
+
+    .buy-item {
+        padding: 17px 5px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.512);
+    }
+
+
+
+}
+
+@media(max-width:1024px) {
+
+    .big-Image {
+        width: 60%;
+        height: 450px;
+        border: 1px solid black;
+        margin-left: 40px;
+
+
+
+    }
+
+    .img {
+        width: 100%;
+        height: 450px;
+
+
+    }
+
+
+
+    h1:nth-child(1) {
+        font-size: 20px;
+        color: black;
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    }
+
+    h1:nth-child(2) {
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        font-weight: lighter;
+    }
+
+    h1:nth-child(3) {
+        font-size: 20px;
+
+        font-weight: lighter;
+
+    }
+
+    del {
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.416);
+    }
+
+    h1:nth-child(3) span {
+        color: green;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .btn1 {
+        font-size: 20px;
+    }
+
+    .btn2 {
+        font-size: 20px;
+    }
+
+
+
+
+
+}
+
+
+@media(max-width:924px) {
+
+    .big-Image {
+        width: 80%;
+        height: 450px;
+        border: 1px solid black;
+        margin-left: 40px;
+
+
+
+    }
+
+    .img {
+        width: 100%;
+        height: 450px;
+
+
+    }
+}
+
+/* table size */
+
+@media(max-width:768px) {
+
+    .contaner {
+        height: auto;
+        width: 100%;
+        border: 3px solid black;
+        display: block;
+        justify-items: center;
+    }
+
+    .product-Images {
+        margin-top: 30px;
+        height: auto;
+        width: 95%;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+
+    .big-Image {
+        width: 95%;
+        height: 800px;
+        border: 1px solid black;
+
+
+
+    }
+
+    .img {
+        width: 100%;
+        height: 800px;
+
+
+    }
+
+    .small-Images {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        gap: 15px;
+
+
+    }
+
+    .small-Images div {
+        max-width: 8vw;
+        border: 1px solid black;
+
+    }
+
+    .small-Images img {
+
+        width: 100%;
+
+
+    }
+
+
+
+
+    .big-Image img {
+        transition: opacity 0.3s ease-in-out;
+        /* Smooth opacity change */
+    }
+
+    /* Small images ke liye attractive border aur scale effect */
+    .small-img-box {
+        max-width: 8vw;
+        border: 2px solid transparent;
+        /* Normal state me transparent border */
+        transition: transform 0.3s ease, border 0.3s ease;
+        /* Smooth scaling */
+    }
+
+    .small-img-box img {
+        transition: transform 0.3s ease;
+        /* Smooth scaling for image */
+    }
+
+    /* Active class jab small image click kiya jaye */
+    .small-img-box.active {
+        border: 2px solid #ff5722;
+        /* Attractive border color on click */
+        transform: scale(1.1);
+        /* Smooth scale effect */
+    }
+
+    /* Hover effect */
+    .small-img-box:hover {
+        transform: scale(1.05);
+        /* Slight scale on hover */
+
+    }
+
+
+    .buy {
+        height: 750px;
+        width: 100%;
+        border: 2px solid black;
+
+    }
+
+    .buy-item {
+        padding: 20px 5px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.512);
+        margin-left: 40px;
+    }
+
+    .buy-addtoCart {
+        padding: 20px 5px;
+        margin-left: 40px;
+
+    }
+
+    h1:nth-child(1) {
+        color: black;
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    }
+
+    h1:nth-child(2) {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        font-weight: lighter;
+    }
+
+    h1:nth-child(3) {
+
+        font-weight: lighter;
+
+    }
+
+    del {
+        color: rgba(0, 0, 0, 0.416);
+    }
+
+    h1:nth-child(3) span {
+        color: green;
+        font-weight: bold;
+    }
+
+
+
+}

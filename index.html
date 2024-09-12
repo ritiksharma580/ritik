@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Navigationbaar -->
+    <header>
+        <div class="head1">
+            <img src="./Images/logo (1).jpeg" class="logo">
+
+            <div class="searchbaar">
+                <img src="./Icons/search icon.png" class="searchicon">
+                <input type="search" placeholder="Search For Product's">
+            </div>
+
+            <div class="logcart">
+                <div>
+                    <img src="./Icons/icons8-user-48.png" alt="" class="login" title="Login">
+                </div>
+                <div>
+                    <img src="./Icons/icons8-add-shopping-cart-32.png" alt="" class="cart" title="AddToCart">
+                </div>
+                <div>
+                    <img src="./Icons/icons8-menu-50.png" alt="" class="menuicon" id="openSidebarBtn">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="head2">
+
+            <ul>
+                <li><button class="btn2" style="height: 65px; width: 100px;" id="on">
+                        <p style="font-size:medium; margin-left: -5px;" class="categoryitms">MEN</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li class="content">Men's topwear
+                                <ul>
+                                    <li> <a href="T-shirt's.html">T-shirt's</a></li><br>
+                                    <li> <a href="#">Shirt's</a></li><br>
+                                    <li> <a href="#">Formal shirt's</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li class="content">Men's bottomwear
+                                <ul>
+                                    <li><a href="#">Jean's</a> </li><br>
+                                    <li><a href="#">Formal Pants's </a></li><br>
+                                    <li><a href="#">Short's </a></li>
+                                </ul>
+                            </li>
+                            <li class="content">Men's Party wear
+                                <ul>
+                                    <li><a href="">Kurta's & Pajama's </a></li>
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                        <img src="./Images/banner6.jpg" alt="">
+                    </div>
+
+                </li>
+                <li><button class="btn2" style="height: 65px; width: 100px;">
+                        <p style="font-size: medium; margin-left: -5px;">WOMEN</p>
+                    </button>
+
+                    <div class="dropdown-content2">
+                        <ul>
+                            <li class="content"> Women Western wear
+                                <ul>
+                                    <li> <a href="#">Topwear</a></li><br>
+                                    <li> <a href="#">Dresses</a></li><br>
+                                    <li> <a href="#">Skirt's</a></li><br>
+                                    <li> <a href="#">short's</a></li><br>
+                                    <li> <a href="#">Jean's</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li class="content">Sport's wear
+                                <ul>
+                                    <li><a href="#">Sports & Gym Wear</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="content">Ethnic Wear
+                                <ul>
+                                    <li><a href="">Sarees</a></li>
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                        <img src="./Images/banner5.jpg" alt="">
+
+                    </div>
+                </li>
+
+                <li><button class="btn2" style="height: 65px; width: 100px;">
+                        <p style="font-size: medium; margin-left: -5px;">KIDS</p>
+                    </button>
+                    <div class="dropdown-content3">
+                        <ul>
+                            <li class="content">Boy's Clothing
+                                <ul>
+                                    <li> <a href="#">T-shirt's</a></li><br>
+                                    <li> <a href="#">Shirt's</a></li><br>
+                                    <li> <a href="">Kurtas, Ethnic Sets And Bottoms</a> </li><br>
+                                    <li> <a href="#">Jean's</a></li><br>
+                                    <li> <a href="#">Short's</a></li><br>
+                                    <li> <a href="#">Innerwear</a></li> <br>
+                                    <li> <a href="#">Combos Sets</a></li> <br>
+
+                                </ul>
+                            </li>
+                            <li class="content">Girl's Clothing
+                                <ul>
+                                    <li><a href="">T-shirts & Topwear </a></li><br>
+                                    <li><a href="">Dresses </a></li><br>
+                                    <li><a href=""> Ethnic wear</a></li><br>
+                                    <li><a href=""> Kurta's & Bottoms</a></li><br>
+                                    <li><a href=""> Girl's jackets</a></li><br>
+                                    <li><a href=""> Jean's</a></li><br>
+                                    <li><a href=""> Winter wear</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                        <img src="./Images/bannner13.jpg" alt="">
+                    </div>
+
+                </li>
+                <li><button class="btn2" style="height: 65px; width: 100px;" title="AboutUs">
+                        <p style="font-size: medium; margin-left: -5px;">ABOUT</p>
+                    </button></li>
+
+
+            </ul>
+
+
+        </div>
+
+        <!-- Sidebar -->
+        <div class="slideMenubar" id="sidebar">
+            <div class="menu-header">
+                <button id="closeSidebarBtn" class="close-btn">✖</button>
+                <h2>Menu</h2>
+            </div>
+            <div class="menuitem"><a href="search.html">Search</a></div>
+            <div class="menuitem">
+                <a href="#" class="subbtn">Men</a>
+                <div class="submenubar">
+                    <a href="T-shirt's.html" class="submenuitem">T-shirt's</a>
+                    <a href="#" class="submenuitem">Shirt's</a>
+                    <a href="#" class="submenuitem">Formal Shirt's</a>
+                    <a href="#" class="submenuitem">Jean's</a>
+                    <a href="#" class="submenuitem">Formal Pant's</a>
+                    <a href="#" class="submenuitem">Short's</a>
+                    <a href="#" class="submenuitem">Kurta-Pajama Set's</a>
+
+                    <!-- Add more submenu items as needed -->
+                </div>
+            </div>
+            <div class="menuitem">
+                <a href="#" class="subbtn">Women</a>
+                <div class="submenubar">
+                    <a href="#" class="submenuitem">Topwear</a>
+                    <a href="#" class="submenuitem">Dresses</a>
+                    <a href="#" class="submenuitem">Skirt's</a>
+                    <a href="#" class="submenuitem">short's</a>
+                    <a href="#" class="submenuitem">Sarees</a>
+                    <a href="#" class="submenuitem">Jean's</a>
+                    <a href="#" class="submenuitem">Sports & Gym Wear</a>
+
+                    <!-- Add more submenu items as needed -->
+                </div>
+            </div>
+
+            <div class="menuitem">
+                <a href="#" class="subbtn">Boy's Clothing</a>
+                <div class="submenubar">
+                    <a href="#" class="submenuitem">T-shirt's</a>
+                    <a href="#" class="submenuitem">Shirt's</a>
+                    <a href="#" class="submenuitem">Kurtas, Ethnic Sets And Bottoms</a>
+                    <a href="#" class="submenuitem">Jean's</a>
+                    <a href="#" class="submenuitem">Short's</a>
+                    <a href="#" class="submenuitem">Innerwear</a>
+                    <a href="#" class="submenuitem">Combos Sets</a>
+
+
+                    <!-- Add more submenu items as needed -->
+
+                </div>
+            </div>
+
+            <div class="menuitem">
+                <a href="#" class="subbtn">Girl's Clothing</a>
+                <div class="submenubar">
+                    <a href="#" class="submenuitem">T-shirts & Topwear</a>
+                    <a href="#" class="submenuitem">Dresses</a>
+                    <a href="#" class="submenuitem">Ethnic wear</a>
+                    <a href="#" class="submenuitem">Kurta's & Bottoms</a>
+                    <a href="#" class="submenuitem">Girl's jackets</a>
+                    <a href="#" class="submenuitem">Winter wear</a>
+                    <a href="#" class="submenuitem">Jean's</a>
+
+
+
+
+
+                    <!-- Add more submenu items as needed -->
+
+                </div>
+            </div>
+
+
+            <div class="menuitem">
+                <a href="#" class="subbtn">About Us</a>
+
+                <div class="submenubar">
+
+                    Welcome to FashionFusion! We are a fashion brand that perfectly blends style with elegance. Our goal
+                    is to offer you clothing and accessories that make you feel confident and classy.
+
+                    We believe fashion is your identity, and our collections are designed to highlight it beautifully.
+                    Our designs are trendy, affordable, and high-quality, perfect for every occasion.
+
+                    Elevate your style with FashionFusion. Your style, our inspiration!
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <!-- banner -->
+    <div class="ban">
+        <img src="./Images/ban.png" class="banner">
+    </div>
+
+
+    <!-- MEN's WEAR -->
+    <span class="span">Categories</span>
+
+
+    <section class="section1">
+        <h2 class="h2tag"><u>Mens wear</u></h2>
+
+
+
+        <div class="scroll">
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/r/e/7/4xl-db1024-3bros-original-imagt7byedcwkgm9.jpeg?q=70"
+                    alt="">
+                <a href="T-shirt's.html">T-shirt's</a>
+
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/u/f/6/m-phsh000014-highlander-original-imagz7uftn77yhg9.jpeg?q=70"
+                    alt="">
+                <a href="">Shirt's</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/jean/h/0/a/34-united192-united-denim-original-imagyvu67vpm68dh.jpeg?q=70"
+                    alt="">
+                <a href="">Jean's</a>
+            </div>
+            <div class="itms">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/l3t2fm80/shirt/t/k/d/l-r-olive-green-stoneberg-original-imageum3wdarrhhp.jpeg?q=70">
+                <a href="">Formal Shirt's</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/w/i/p/32-el-p-cot-el-cielo-original-imagu75yvuxbyhrh.jpeg?q=70"
+                    alt="">
+                <a href="">Formal Pant's</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/short/r/h/h/30-single-button-shrt-bl1-deedat-original-imahfcdzhhtersbh.jpeg?q=70"
+                    alt="">
+                <a href="">Short's</a>
+            </div>
+
+            <div class="itms">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/e/u/h/l-blue-kurta-s-kaashi-couture-original-imagn8rghz8eu5zs.jpeg?q=70">
+                <a href="">Kurta's Pajama's</a>
+            </div>
+
+
+
+        </div>
+
+        <br>
+        <div class="topProducts">
+
+            <h1>ToP Products</h1>
+
+            <div class="grid">
+                <div class="top top1">
+                    <img class="img" src="./Images/Men Cotton Blend Kurta Pyjama Set.png" alt="" id="image">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Sponsored</span>
+                        <span>Men Cotton Blend Kurta Pyjama Set
+                        </span>
+                        <span>₹569</span>
+                        <del class="dell">₹1,499</del>
+                        <span>74% off</span>
+                    </div>
+                </div>
+                <div class="top"><img class="img" src="./Images/Men Regular Fit Solid Spread Collar Formal Shirt.png"
+                        alt="">
+                    <button class="QuickView"> Quick View</button>
+
+                    <div class="mm">
+                        <span>VTEXX</span>
+                        <span>Men Regular Fit Solid Spread Collar Formal Shirt</span>
+                        <span>₹299</span>
+                        <del class="dell">₹1,299</del>
+                        <span>76% off</span>
+                    </div>
+                </div>
+
+                <div class="top">
+                    <img class="img" src="./Images/Men Regular Fit Checkered Spread Collar Casual Shirt.png" alt="">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Surhi</span>
+                        <span>Men Regular Fit Checkered Spread Collar Casual Shirt </span>
+                        <span>₹299</span>
+                        <del class="dell">₹1,999</del>
+                        <span>85% off</span>
+                    </div>
+                </div>
+
+
+
+
+                <div class="top"><img src="./Images/Men Relaxed Fit Mid Rise Dark Blue Jeans.png" alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>DENIM LOOK</span>
+                        <span>Men Relaxed Fit Mid Rise Dark Blue Jeans </span>
+                        <span>₹469</span>
+                        <del class="dell">₹1,999</del>
+                        <span>76% off</span>
+                    </div>
+
+                </div>
+
+
+                <div class="top"><img src="./Images/Men Printed Round Neck Polyester Black, Yellow T-Shirt.png" alt=""
+                        class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Sti</span>
+                        <span>Men Printed Round Neck Polyester Black, Yellow T-Shirt </span>
+                        <span>₹199</span>
+                        <del class="dell">₹999</del>
+                        <span>80% off</span>
+                    </div>
+                </div>
+
+
+
+                <div class="top"><img src="./Images/Men Regular Fit Grey Cotton Blend Trousers.png" alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>El Cielo</span>
+                        <span>Men Regular Fit Grey Cotton Blend Trousers </span>
+                        <span>₹442</span>
+                        <del class="dell">₹1,299</del>
+                        <span>65% off</span>
+                    </div>
+
+
+                </div>
+                <div class="top"><img
+                        src="./Images/Pack of 2 Solid Men Black, Grey Basic Shorts, Beach Shorts, Baggy Shorts, Gym Shorts, Cycling Shorts.png"
+                        alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Adrenex</span>
+                        <span>Pack of 2 Solid Men Black, Grey Basic Shorts </span>
+                        <span>₹299</span>
+                        <del class="dell">₹1,499</del>
+                        <span>80% off</span>
+                    </div>
+
+
+
+                </div>
+                <div class="top"><img src="./Images/mens cargos.png" alt="" class="img">
+
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>SPROUTED</span>
+                        <span>Men Cargos </span>
+                        <span>₹680</span>
+                        <del class="dell">₹1,290</del>
+                        <span>47% off</span>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+    </section>
+
+    <!-- WOMEN WEAR -->
+
+    <section class="section2">
+
+        <h2><u>Women wear</u></h2>
+        <div class="scroll">
+            <div class="itms">
+                <img src="https://www.berrylush.com/cdn/shop/products/1_1abc37d9-ddad-4e5d-9109-f1b45d3e716e.jpg?v=1670223577&width=800"
+                    alt="">
+                <a href="">Topwear</a>
+
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/b/s/u/xl-d735d-drs-deklook-original-imahydvukgsgz27r.jpeg?q=70"
+                    alt="">
+                <a href="">Dresses</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/km2clu80/jean/q/0/w/28-mss21jn001-metronaut-original-imagffv2btgsdp8t.jpeg?q=70"
+                    alt="">
+                <a href="">Jean's</a>
+            </div>
+            <div class="itms">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/short/i/r/w/s-la4310-green-sera-original-imahfetg3ejfb6sq.jpeg?q=70">
+                <a href="">Short's</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/skirt/l/v/x/38-s2-velentine-long-zwerlon-original-imahf6z6zfuy2ftd.jpeg?q=70"
+                    alt="">
+                <a href="">Skirt's</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/kfu0h3k0-0/trouser/1/c/u/30-jg-b2-army-q-rious-original-imafw7g9kgtxzft4.jpeg?q=70"
+                    alt="">
+                <a href="">Sports And Gym Wear</a>
+            </div>
+
+            <div class="itms">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/m/n/3/free-vs-935-leelavati-unstitched-original-imahfg5zup9khnb2.jpeg?q=70">
+                <a href="">Sarees</a>
+            </div>
+        </div>
+
+
+
+
+        <div class="topProducts">
+            <h1>ToP Products</h1>
+
+            <div class="grid">
+                <div class="top"><img class="img" src="./Images/Women Slim Mid Rise Black Jeans.png" alt="">
+                    <button class="QuickView"> Quick View</button>
+
+
+
+                    <div class="mm">
+                        <span>TYFFYN</span>
+                        <span>Women Slim Mid Rise Black Jeans </span>
+                        <span>₹389</span>
+                        <del class="dell">₹1,499</del>
+                        <span>74% off</span>
+                    </div>
+
+
+
+                </div>
+                <div class="top"><img src="./Images/Women Fit and Flare Black, White Dress.png" alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Sheetal Associates</span>
+                        <span>Women Fit and Flare Black, White Dress </span>
+                        <span>₹369</span>
+                        <del class="dell">₹1,999</del>
+                        <span>81% off</span>
+                    </div>
+
+
+                </div>
+                <div class="top"><img src="./Images/Casual Regular Sleeves Printed Women White Top.png" alt=""
+                        class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Sollobell</span>
+                        <span>Casual Regular Sleeves Printed Women White Top </span>
+                        <span>₹241</span>
+                        <del class="dell">₹1,199</del>
+                        <span>79% off</span>
+                    </div>
+
+
+                </div>
+                <div class="top"><img
+                        src="./Images/Casual Bell Sleeves Printed Women Multicolor Top(11page top wear).png" alt=""
+                        class="img">
+                    <button class="QuickView"> Quick View</button>
+
+                    <div class="mm">
+                        <span>Aaivan</span>
+                        <span>Casual Bell Sleeves Printed Women Multicolor Top </span>
+                        <span>₹329</span>
+                        <del class="dell">₹1,299</del>
+                    </div>
+
+
+
+                </div>
+
+                <div class="top"><img src="./Images/Women Floral Print Flared Pink Skirt.png" alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+
+                    <div class="mm">
+                        <span>Oomph!</span>
+                        <span>Women Floral Print Flared Pink Skirt
+                        </span>
+                        <span>₹329</span>
+                        <del class="dell">₹1,340</del>
+                        <span>75% off</span>
+                    </div>
+
+
+                </div>
+                <div class="top"><img src="./Images/Solid Women Pink Casual Shorts(2page shorts).png" alt=""
+                        class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Tokyo Talkies</span>
+                        <span>Solid Women Pink Casual Shorts </span>
+                        <span>₹289</span>
+                        <del class="dell">₹949</del>
+                        <span>69% off</span>
+                    </div>
+
+
+
+                </div>
+                <div class="top"><img src="./Images/Self Design Bollywood Net Saree  (Multicolor)(20page).png" alt=""
+                        class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>LOROFY </span>
+                        <span>Self Design Bollywood Net Saree (Magenta) </span>
+                        <span>₹301</span>
+                        <del class="dell">₹1,999</del>
+                        <span>84% off</span>
+                    </div>
+
+
+                </div>
+                <div class="top"><img src="./Images/women sports wear.png" alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>JK Creation</span>
+                        <span>Printed Women Track Suit </span>
+                        <span>₹489</span>
+                        <del class="dell">₹1,999</del>
+                        <span>75% off</span>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- KID'S WEAR  -->
+
+
+    <section class="section3">
+
+        <h2><u>Kids wear</u></h2>
+
+        <!-- FOR BOY'S  -->
+
+        <h2>For boy's</h2>
+
+        <div class="scroll">
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-t-shirt/4/f/v/13-14-years-tmsblhnboy-bd145-tripr-original-imahfdrqhq5pzgfx.jpeg?q=70"
+                    alt="">
+                <a href="">T-shirt's</a>
+
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/a/r/d/5-6-years-8-solbiza-original-imahf6pszeuzwwhh.jpeg?q=70"
+                    alt="">
+                <a href="">Shirt's</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/8/v/k/14-15-years-kids-kurta-tammu-original-imahybm2fhh3xyfc.jpeg?q=70"
+                    alt="">
+                <a href="">Kurtas, Ethnic Sets And Bottoms</a>
+            </div>
+            <div class="itms">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-short/k/z/d/7-8-years-jean-pocket-shorts-3p-leroo-original-imagqg8q6rmqq2ca.jpeg?q=70">
+                <a href="">Short's</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/k7z3afk0/kids-vest/e/3/3/2-3-years-skp-jb5pck-classic-print-vest-cmb2-skipper-original-imafq3zgcw5hdqy3.jpeg?q=70"
+                    alt="">
+                <a href="">Innerwear</a>
+            </div>
+            <div class="itms">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/p/z/k/5-6-years-bs-03-supersquad-original-imagsrp8kpzsrzkn.jpeg?q=70"
+                    alt="">
+                <a href="">Combos sets</a>
+            </div>
+
+
+        </div>
+
+        <div class="topProducts">
+            <h1>ToP Products</h1>
+
+            <div class="grid">
+                <div class="top"><img class="img"
+                        src="./Images/Boys Solid Cotton Blend T Shirt  (Multicolor, Pack of 1).png" alt="">
+                    <button class="QuickView"> Quick View</button>
+
+                    <div class="mm">
+                        <span>TRIPR</span>
+                        <span>Boys Solid Cotton Blend T Shirt</span>
+                        <span>₹349</span>
+                        <del class="dell">₹1,999</del>
+                        <span>82% off</span>
+                    </div>
+
+
+
+                </div>
+                <div class="top"><img src="./Images/Boys Printed Cotton Blend T Shirt  (Red, Pack of 1).png" alt=""
+                        class="img">
+                    <button class="QuickView"> Quick View</button>
+
+                    <div class="mm">
+                        <span>Alan Jones </span>
+                        <span>Boys Printed Cotton Blend T Shirt </span>
+                        <span>₹385</span>
+                        <del class="dell">₹999</del>
+                    </div>
+
+
+                </div>
+                <div class="top"><img src="./Images/Boys Wedding Kurta and Pyjama Set.png" alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span> SHIVGARMENT</span>
+                        <span>Boys Wedding Kurta and Pyjama Set
+                        </span>
+                        <span>₹361</span>
+                        <del class="dell">₹999</del>
+                        <span>63% off</span>
+                    </div>
+
+
+                </div>
+                <div class="top"><img src="./Images/5-6-years-8-solbiza-original-ima.png" alt="" class="img">
+
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Solbiza</span>
+                        <span>Boys Regular Fit Printed Casual Shirt
+                        </span>
+                        <span>₹299</span>
+                        <del class="dell">₹1,299</del>
+                        <span>76% off</span>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="top"><img src="./Images/Boys Regular Fit Printed Spread Collar Casual Shirt.png" alt=""
+                        class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+
+                    <div class="mm">
+                        <span>clothbucket</span>
+                        <span>Boys Regular Fit Printed Spread Collar Casual Shirt
+
+                        </span>
+                        <span>₹241</span>
+                        <del class="dell">₹899</del>
+                        <span>73% off</span>
+                    </div>
+
+
+                </div>
+                <div class="top"><img src="./Images/Short For Boys Sports Printed Cotton Blend.png" alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+
+                    <div class="mm">
+                        <span>Tokyo Talkies</span>
+                        <span>Short For Boys Sports Printed Cotton Blend</span>
+                        <span>₹289</span>
+                        <del class="dell">₹949</del>
+                        <span>69% off</span>
+                    </div>
+
+
+
+                </div>
+                <div class="top"><img src="./Images/Vest For Boys Cotton Blend  (Multicolor, Pack of 5).png" alt=""
+                        class="img">
+                    <button class="QuickView"> Quick View</button>
+
+                    <div class="mm">
+                        <span>Kids Basket </span>
+                        <span>Vest For Boys Cotton Blend (Multicolor, Pack of 5) </span>
+                        <span>₹299</span>
+                        <del class="dell">₹899</del>
+                        <span>66% off</span>
+                    </div>
+
+
+                </div>
+                <div class="top"><img src="./Images/Baby Boys & Baby Girls Casual T-shirt Shorts  (Multicolor).png"
+                        alt="" class="img">
+                    <button class="QuickView"> Quick View</button>
+
+                    <div class="mm">
+
+                        <span>Tarsier </span>
+                        <span>Baby Boys & Baby Girls Casual T-shirt Shorts </span>
+                        <span>₹499</span>
+                        <del class="dell">₹1,197</del>
+                        <span>58% off</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="girls">
+
+            <!-- FOR Girl's -->
+
+            <h2>For girl's</h2>
+            <div class="scroll">
+                <div class="itms">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/j/c/u/13-14-years-gown70-aarya-designer-original-imagutvvsxwsebjp.jpeg?q=70"
+                        alt="">
+                    <a href="">Kids' Dresses</a>
+
+                </div>
+
+
+                <div class="itms">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-ethnic-set/h/s/s/9-10-years-gold072-dhvra-fashion-original-imahygb6wfgugtuz.jpeg?q=70"
+                        alt="">
+                    <a href="">Kurtas, Ethnic Sets And Bottoms</a>
+                </div>
+                <div class="itms">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-kids-t-shirt/d/f/6/7-8-years-sp-senior-girls-hs-black-005-kiddy-star-original-imagtqywykhan6zr.jpeg?q=70"
+                        alt="">
+                    <a href="">T-shirts & Topwear</a>
+                </div>
+                <div class="itms">
+                    <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-vest/8/w/p/9-10-years-mega-style-rn-tiny-hands-6-original-imahfr35wd3jxfeu.jpeg?q=70">
+                    <a href="">Innerwear And Swimwear</a>
+                </div>
+                <div class="itms">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/p/n/n/5-6-years-no-vn-kids-kaley-original-imagmeghbmwnzrzm.jpeg?q=70"
+                        alt="">
+                    <a href="">Girl's Jackets</a>
+                </div>
+                <div class="itms">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/s/0/w/18-24-months-combo-s-wt-wine-british-blue-dolite-mars-infiniti-original-imagyfmbpwcs7s56.jpeg?q=70"
+                        alt="">
+                    <a href="">Winter Wear</a>
+                </div>
+
+
+            </div>
+            <div class="topProducts">
+                <h1>ToP Products</h1>
+
+                <div class="grid">
+                    <div class="top"><img class="img" src="./Images/Girls Calf Length Party Dress.png" alt="">
+                        <button class="QuickView"> Quick View</button>
+
+
+                        <div class="mm">
+                            <span>Rudramani Fab </span>
+                            <span>Girls Calf Length Party Dress</span>
+                            <span>₹629</span>
+                            <del class="dell">₹1,499</del>
+                            <span>58% off</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="top"><img src="./Images/Girls Festive & Party Kurta, Pyjama & Dupatta Set.png" alt=""
+                            class="img">
+                        <div class="trending">Bestseller</div>
+                        <button class="QuickView"> Quick View</button>
+
+
+
+                        <div class="mm">
+                            <span>Raithan </span>
+                            <span>Girls Festive & Party Kurta, Pyjama & Dupatta Set </span>
+                            <span>₹385</span>
+                            <del class="dell">₹999</del>
+                        </div>
+
+
+                    </div>
+                    <div class="top"><img src="./Images/Girls Wedding Kurta and Palazzo Set.png" alt="" class="img">
+                        <button class="QuickView"> Quick View</button>
+
+
+                        <div class="mm">
+                            <span>Viddhi Ethinic</span>
+                            <span>Girls Wedding Kurta and Palazzo Set</span>
+                            <span>₹909</span>
+                            <del class="dell">₹1,999</del>
+                            <span>54% off</span>
+                        </div>
+
+
+                    </div>
+                    <div class="top"><img src="./Images/Girls Graphic Print Cotton Blend T Shirt.png" alt=""
+                            class="img">
+                        <button class="QuickView"> Quick View</button>
+
+                        <div class="mm">
+                            <span>KIDDY STAR</span>
+                            <span>Girls Graphic Print Cotton Blend T Shirt
+                            </span>
+                            <span>₹184</span>
+                            <del class="dell">₹999</del>
+                            <span>81% off</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="top"><img src="./Images/Girls Casual Cotton Blend Shirt Style Top.png" alt=""
+                            class="img">
+                        <button class="QuickView"> Quick View</button>
+
+
+
+                        <div class="mm">
+                            <span>Darjifashion</span>
+                            <span>Girls Casual Cotton Blend Shirt Style Top
+
+                            </span>
+                            <span>₹329</span>
+                            <del class="dell">₹899</del>
+                            <span>63% off</span>
+                        </div>
+
+
+                    </div>
+                    <div class="top"><img src="./Images/Girls Solid Denim Jacket.png" alt="" class="img">
+                        <button class="QuickView"> Quick View</button>
+
+
+                        <div class="mm">
+                            <span>Noh.Voh - SASSAFRAS Kids
+                            </span>
+                            <span>Girls Solid Denim Jacket
+                            </span>
+                            <span>₹799</span>
+                            <del class="dell">₹2,399</del>
+                            <span>70% off</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="top"><img src="./Images/Baby Boys & Baby Girls Full Sleeve Printed Sweatshirt.png"
+                            alt="" class="img">
+                        <button class="QuickView"> Quick View</button>
+
+                        <div class="mm">
+                            <span>Show In Style </span>
+                            <span>Baby Boys & Baby Girls Full Sleeve Printed Sweatshirt
+                            </span>
+                            <span>₹599</span>
+                            <del class="dell">₹899</del>
+                            <span>33% off</span>
+                        </div>
+
+
+                    </div>
+                    <div class="top"><img src="./Images/Panty For Girls.png" alt="" class="img">
+                        <div class="mm">
+                            <button class="QuickView"> Quick View</button>
+
+
+                            <span>Aaboron</span>
+                            <span>Panty For Girls </span>
+                            <span>₹225</span>
+                            <del class="dell">₹599</del>
+                            <span>62% off</span>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+    </section>
+    <!-- Footer -->
+    <section class="section4">
+        <div class="Fashionfusion">
+            <img src="./Images/logo (1).jpeg" alt=""><br>
+
+            <p> 1. Elevate your wardrobe, elevate your life. At FashionFusion, <br>we curate collections that empower
+                you to express <br> your true self with confidence and style.</p>
+            <p>2. Fashion knows no boundaries. At FashionFusion, we craft trends that <br> speak louder than words,
+                turning every outfit into a story of its own.</p>
+            <p>3. Unleash your inner fashionista with FashionFusion. We bring you bold,<br> trendsetting styles that are
+                as dynamic as you are.</p>
+
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+
+        <div class="policy">
+            <h3>Policy</h3>
+            <a href="">Terms of Service</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Return Policy</a>
+
+
+        </div>
+
+        <div class="aboutus">
+            <h3>AboutUs</h3>
+            <a href=""> About FashionFusion</a>
+            <a href=""> Our Brands</a>
+            <a href=""> Media+Press</a>
+            <a href="">Blogs</a>
+            <a href="">Store Locator</a>
+            <a href=""> Business Enquiries</a>
+            <a href="">Blogger's Program</a>
+            <a href="">Fraud Alert</a>
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="ContactUs">
+            <h3>ContactUs</h3>
+            <p>Email:-support@Fashionfusion.com <br>(9AM to 6PM Monday to Friday)</p>
+            <p>Call:-7014144940</p>
+        </div>
+
+
+    </section>
+    <script src="index.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

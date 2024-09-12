@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blank</title>
+    <link rel="stylesheet" href="addtoCart2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+<a href="./index.html">home</a>
+
+
+    <div class="contaner">
+        <div class="product-Images">
+            <div class="big-Image">
+                <img src="./Images/Tshirt1(1).png" alt="" class="img" id="bigImage">
+            </div>
+            <div class="small-Images">
+                <div class="small-img-box" onclick="changeImage('img1')">
+                    <img src="./Images/Tshirt1(1).png" alt="" id="img1">
+                </div>
+                <div class="small-img-box" onclick="changeImage('img2')">
+                    <img src="./Images/Tshirt1.png" alt="" id="img2">
+                </div>
+                <div class="small-img-box" onclick="changeImage('img3')">
+                    <img src="./Images/Tshirt3(2).png" alt="" id="img3">
+                </div>
+                <div class="small-img-box" onclick="changeImage('img4')">
+                    <img src="./Images/Tshirt4(2).png" alt="" id="img4">
+                </div>
+                <div class="small-img-box" onclick="changeImage('img5')">
+                    <img src="./Images/Tshirt7(2).png" alt="" id="img5">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="buy">
+            <div class="buy-item">
+                <h1>ADRO</h1>
+                <h1>ADRO Regular Fit Polo Tshirt in 100% Cotton Multi Color Polo also in Plus Size
+                </h1>
+                <h1>
+                    ₹599 <del>₹1,799</del> <span>67% off</span></h1>
+            </div>
+            <div class="buy-item">
+                <p>Sizes: <span id="selected-sizes"></span></p>
+
+                <div class="size">
+                    <div class="sz" data-size="S">S</div>
+                    <div class="sz" data-size="M">M</div>
+                    <div class="sz" data-size="L">L</div>
+                    <div class="sz" data-size="XL">XL</div>
+                    <div class="sz" data-size="2XL">2XL</div>
+                    <div class="sz" data-size="3XL">3XL</div>
+                </div>
+            </div>
+
+
+
+
+            <div class="buy-item">
+                <p style="display: inline; ">Quntity:</p>
+                <p class="num" style="display: inline;">0</p>
+                <div class="q">
+                    <span class="minus" style="font-size: 60px; width: 100px; ">-</span>
+                    <span class="plus" style="font-size: 30px; width: 100px;">+</span>
+
+                </div>
+            </div>
+            
+            <div id="message"></div>
+
+            <div class="buy-addtoCart">
+                <button class="btn1" id="product_2">Add to cart</button><br><br>
+                <button class="btn2">Buy now</button>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- Footer -->
+    <section class="section4">
+        <div class="Fashionfusion">
+            <img src="./Images/logo (1).jpeg" alt=""><br>
+
+            <p> 1. Elevate your wardrobe, elevate your life. At FashionFusion, <br>we curate collections that empower
+                you to express <br> your true self with confidence and style.</p>
+            <p>2. Fashion knows no boundaries. At FashionFusion, we craft trends that <br> speak louder than words,
+                turning every outfit into a story of its own.</p>
+            <p>3. Unleash your inner fashionista with FashionFusion. We bring you bold,<br> trendsetting styles that are
+                as dynamic as you are.</p>
+
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+
+        <div class="policy">
+            <h3>Policy</h3>
+            <a href="">Terms of Service</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Return Policy</a>
+
+
+        </div>
+
+        <div class="aboutus">
+            <h3>AboutUs</h3>
+            <a href=""> About FashionFusion</a>
+            <a href=""> Our Brands</a>
+            <a href=""> Media+Press</a>
+            <a href="">Blogs</a>
+            <a href="">Store Locator</a>
+            <a href=""> Business Enquiries</a>
+            <a href="">Blogger's Program</a>
+            <a href="">Fraud Alert</a>
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="ContactUs">
+            <h3>ContactUs</h3>
+            <p>Email:-support@Fashionfusion.com <br>(9AM to 6PM Monday to Friday)</p>
+            <p>Call:-7014144940</p>
+        </div>
+
+
+    </section>
+    <script src="addtocart2.js"></script>
+    
+
+    <!-- <script>
+        // increse number
+        let a = document.querySelector(".plus");
+        let b = document.querySelector(".minus");
+        let c = document.querySelector(".num")
+        number = 0;
+        a.addEventListener("click", function () {
+            number++;
+            c.innerHTML = number
+        })
+        b.addEventListener("click", function () {
+            if (number == 0) {
+
+            } else {
+                number--;
+                c.innerHTML = number
+            }
+
+        });
+
+        const sizeElements = document.querySelectorAll('.sz');
+        const selectedSizes = document.getElementById('selected-sizes');
+        let selectedSizesArray = [];
+
+        sizeElements.forEach(size => {
+            size.addEventListener('click', function () {
+                // Toggle active class
+                this.classList.toggle('active');
+
+                // Check if size is already selected
+                const sizeText = this.dataset.size;
+                if (this.classList.contains('active')) {
+                    // Add to selected sizes array
+                    if (!selectedSizesArray.includes(sizeText)) {
+                        selectedSizesArray.push(sizeText);
+                    }
+                } else {
+                    // Remove from selected sizes array
+                    selectedSizesArray = selectedSizesArray.filter(size => size !== sizeText);
+                }
+
+                // Update selected sizes display
+                selectedSizes.textContent = selectedSizesArray.length > 0 ? selectedSizesArray.join(', ') : "";
+            });
+        });
+
+
+
+        function changeImage(imageId) {
+            // Pehle badi image ke element ko select kar lo
+            var bigImg = document.getElementById('bigImage');
+
+            // Phir us image ko transition effect do
+            bigImg.style.opacity = '0';  // Image ko fade out karo
+            setTimeout(function () {
+                var smallImg = document.getElementById(imageId);
+                bigImg.src = smallImg.src;  // Image source ko update karo
+                bigImg.style.opacity = '1';  // Image ko fade in karo
+            }, 300);  // Delay for smooth transition (300ms)
+        }
+
+        // Small images par click hone par active class add karo
+        document.querySelectorAll('.small-img-box').forEach(function (box) {
+            box.addEventListener('click', function () {
+                document.querySelectorAll('.small-img-box').forEach(function (box) {
+                    box.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+
+
+
+
+
+
+        // Check if the product was added to the cart
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('added')) {
+            document.getElementById('message').textContent = "Your product added to cart!";
+            document.getElementById('message').style.color = "green";
+            document.getElementById('message').style.fontSize = "20px";
+            document.getElementById('message').style.margin = "10px 0";
+        }
+
+
+
+    </script> -->
+
+</body>
+
+</html>
